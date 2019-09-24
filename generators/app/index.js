@@ -54,7 +54,7 @@ module.exports = class extends Generator {
     }
 
     writingFunction() {
-        var packageDir = ths.props.appPackage.replace(/\./g, '/');
+        var packageDir = this.props.appPackage.replace(/\./g, '/');
         var appFolder = 'base-kotlin-mvp';
 
         mkdirp('app');
