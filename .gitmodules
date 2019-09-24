@@ -1,0 +1,3 @@
+[submodule "generators/app/templates/base-kotlin-mvp"]
+	path = generators/app/templates/base-kotlin-mvp
+	url = https://github.com/CoderJava/base-kotlin-mvp
